@@ -25,7 +25,7 @@
 
 2. To deploy the wordpress run the below command.
 
-    `kubectl apply -f /WORDPRESS-WITH-KUBERNETES`
+    `kubectl apply -f WORDPRESS-WITH-KUBERNETES`
 
 3. then run this command to forward the port to localhost.
 
