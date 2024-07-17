@@ -44,7 +44,10 @@
 2. If you have other rources in kubernetes don't run this command. Run the following commands.
 
    `kubectl delete -f deploy wordpress mysql`
+   
    `kubectl delete -f svc wordpress mysql`
+   
    `kubectl delete pv wordpress-storage mysql-storage`
+   
    `kubectl delete pvc wordpress-storage mysql-storage`
 
